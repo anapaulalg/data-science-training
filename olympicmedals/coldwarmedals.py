@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #Read data
-medals = pd.read_csv('Summer Olympic medallists 1896 to 2008 - ALL MEDALISTS.tsv', sep='\t')
+medals = pd.read_csv('SummerOlympicMedallists1896-2008.tsv', sep='\t')
     
 # Extract all rows for which the 'Edition' is between 1952 & 1988: during_cold_war
 during_cold_war = (medals.Edition>=1952) & (medals.Edition<=1988)

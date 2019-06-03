@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #Read data
-medals = pd.read_csv('Summer Olympic medallists 1896 to 2008 - ALL MEDALISTS.tsv', sep='\t')
+medals = pd.read_csv('SummerOlympicMedallists1896-2008.tsv', sep='\t')
 
 medals.Medal = pd.Categorical(values=medals.Medal, categories=['Bronze', 'Silver', 'Gold'], ordered=True)
 

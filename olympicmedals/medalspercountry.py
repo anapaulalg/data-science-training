@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 #Read data
-medals = pd.read_csv('Summer Olympic medallists 1896 to 2008 - ALL MEDALISTS.tsv', sep='\t')
+medals = pd.read_csv('SummerOlympicMedallists1896-2008.tsv', sep='\t')
 
 # Select the 'NOC' column of medals: country_names
 country_names = medals['NOC']
